@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import navio from "navio";
 
 class App extends React.Component {
@@ -24,8 +23,9 @@ class App extends React.Component {
     })
       .then((response) => { return response.json(); })
       .then((responseJson) => {
-        const nv=navio(this.aquiNavio,600);
+        const nv = navio(this.aquiNavio, 600);
         nv.data(responseJson);
+        nv.addAllAttribs();
       })
   }
 
