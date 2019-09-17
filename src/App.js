@@ -1,26 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import navio from "navio";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { value: "" };
+  }
+
+  onChange(e) {
+    this.setState({ value: e.target.value });
+  }
+
+  onClick() {
+    fetch(this.state.value, {
+      method: 'GET',
+      credentials: "same-origin",
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    })
+      .then((response) => { return response.json(); })
+      .then((responseJson) => {
+        const nv=navio(this.aquiNavio,600);
+        nv.data(responseJson);
+      })
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <input type="text" value={this.state.value} onChange={this.onChange.bind(this)} />
+        <button onClick={this.onClick.bind(this)}>Enviar URL</button>
+        <div ref={aquiNavio => this.aquiNavio = aquiNavio} />
+      </div>
+    );
+  }
 }
 
-export default App;
+export default App
