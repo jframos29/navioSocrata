@@ -4,7 +4,7 @@
   "icons": [
     {
       "src": "socrata.png",
-      "type": "image/ong"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
