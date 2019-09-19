@@ -8,13 +8,13 @@
     "server": "nodemon ./bin/www",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
-
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "isomorphic-fetch": "^2.2.1",
