@@ -1,5 +1,4 @@
 const mongo = require("mongodb").MongoClient;
-require("dotenv").config();
 const url = "mongodb://"+process.env.usuario+":"+process.env.password+"@ds133746.mlab.com:33746/parcialweb";
 const DB="parcialweb";
 const COL="historico";
