@@ -7,13 +7,13 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-app.use(express.static(path.join(__dirname, '../front/build')));
+app.use(express.static(path.join(__dirname, './front/build')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/', indexRouter);
 
-app.get('*', (req, res) => { res.sendfile(path.join(__dirname = '../front/build/index.html'));});
+app.get('*', (req, res) => { res.sendfile(path.join(__dirname = './front/build/index.html'));});
 
 module.exports = app;
