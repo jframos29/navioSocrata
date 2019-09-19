@@ -12,4 +12,4 @@ Juan Felipe Ramos Correa [Mi página web](http://jframos29.github.io)
 ![Screenshot](https://github.com/jframos29/navioSocrata/blob/master/screenshot.png)
 
 ## Licencia
-Este proyecto posee una licencia MIT que es posible ver [aquí](https://github.com/username/reponame/blob/master/LICENSE)
+Este proyecto posee una licencia MIT que es posible ver [aquí](https://github.com/jframos29/navioSocrata/blob/master/LICENSE)
