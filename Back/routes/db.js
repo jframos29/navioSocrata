@@ -8,7 +8,6 @@ const insert = (a)=>{
   return new Promise((resolve, reject) => {
     mongo.connect(url, (err, client) => {
         if (err) throw err;
-        console.log(a);
         const db = client.db(DB);
         const col = db.collection(COL);
         col.insert(a,(err) => {
