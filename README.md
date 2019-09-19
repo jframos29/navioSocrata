@@ -1,4 +1,5 @@
 ## Objetivo del proyecto
+El objetivo del proyecto es utilizar el API de Navio para representar datos provenientes de un api de Socrata establecida sobre la página de datos abiertos en Colombia [datos.gov.co](datos.gov.co)
 ## Tecnologías usadas
 Las tecnologías usadas fueron, sustentadas sobre Node.js, Express (Back-end) y React (Front-end). Adicionalmente, se utiliza una base de datos documental de Mongo para guardar y visualizar los historiales de consulta.
 ## Cómo se corre
@@ -7,5 +8,10 @@ El proyecto se puede ver directamente desde la página de despligue ([https://na
 Juan Felipe Ramos Correa [Mi página web](http://jframos29.github.io)
 ## Screenshots
 
+![title](https://github.com/username/reponame/blob/master/)
+![title](https://github.com/username/reponame/blob/master/)
+![title](https://github.com/username/reponame/blob/master/)
+![title](https://github.com/username/reponame/blob/master/)
+
 ## Licencia
-Este proyecto posee una licencia MIT que es posible ver [aquí]()
+Este proyecto posee una licencia MIT que es posible ver [aquí](https://github.com/username/reponame/blob/master/license)
