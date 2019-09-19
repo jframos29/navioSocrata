@@ -3,15 +3,6 @@
 # dependencies
 */node_modules
 node_modules
-/front/.pnp
-/front.pnp.js
-
-# testing
-front/coverage
-
-# production
-front/build
-
 # misc
 .DS_Store
 .env.local

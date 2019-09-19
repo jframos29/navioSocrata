@@ -1,0 +1,2 @@
+.ruedita{border-radius:50%;border:16px solid #f3f3f3;border-top-color:#3498db;width:120px;height:120px;-webkit-animation:girar 2s linear infinite;animation:girar 2s linear infinite}.bannerHistorial,.historial{padding-bottom:2rem}@-webkit-keyframes girar{0%{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(1turn)}}@keyframes girar{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+/*# sourceMappingURL=main.fc72e8aa.chunk.css.map */
