@@ -1,5 +1,5 @@
 ## Objetivo del proyecto
-El objetivo del proyecto es utilizar el API de Navio para representar datos provenientes de un api de Socrata establecida sobre la página de datos abiertos en Colombia [datos.gov.co](datos.gov.co)
+El objetivo del proyecto es utilizar el API de Navio para representar datos provenientes de un api de Socrata establecida sobre la página de datos abiertos en Colombia [datos.gov.co](http://datos.gov.co)
 ## Tecnologías usadas
 Las tecnologías usadas fueron, sustentadas sobre Node.js, Express (Back-end) y React (Front-end). Adicionalmente, se utiliza una base de datos documental de Mongo para guardar y visualizar los historiales de consulta.
 ## Cómo se corre
