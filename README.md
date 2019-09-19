@@ -1,6 +1,7 @@
 ## Objetivo del proyecto
 ## Tecnologías usadas
 ## Cómo se corre
+El proyecto se puede ver directamente desde la página de despligue ([https://naviosocrata.herokuapp.com/](https://naviosocrata.herokuapp.com/)). Sin embargo, si se quiere correr localmente basta con descargar este repositorio, instalar las dependencias tanto de back como de front (las de back se instalan ubicandose en consola en la carpeta del proyecto y corriendo el comando ´npm install´; las de front se instalan yendo a front ´cd front´ e instalando las dependencias ´npm install´) y correr el comando ´npm start´ (para back) y ´cd front´´npm start´ (para front) con el fin de ejecutar tanto el servidor Back como el front. Cabe aclarar que, para la ejecución local, bien hay que agregar dos variables de entorno con el fin de conectarse correctamente a la base de datos de Navio Socrata. Dichas variables tiene los siguientes valores: user=admin y password=password123.  
 ## Autor
 ## Screenshots
 ## Licencia
